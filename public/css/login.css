@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    /* background-image: url("https://cdn.shortpixel.ai/spai/q_glossy+w_2058+h_1225+to_auto+ret_img/www.goodenergy.co.uk/wp-content/uploads/2024/01/AdobeStock_481806793_2500px-2048x1536.jpg"); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://cdn.shortpixel.ai/spai/q_+w_1895+to_webp+ret_img/www.goodenergy.co.uk/business/wp-content/uploads/sites/2/2022/12/AdobeStock_315671856-2048x1150.jpeg) ; 
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    /* color: rgb(223, 155, 52); */
+    margin-top: 20vh;
+    margin-bottom: 30px;
+
+}
+input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0 10px 0;
+}
+.sub{
+    background-color:rgb(223, 155, 52);
+    cursor: pointer;
+}
+
+form{
+    /* margin-top: 20vh; */
+    text-align: center;
+    border: 5px solid rgb(111, 70, 23);
+    padding: 20px;
+    background-color: rgb(172, 137, 22);
+}
